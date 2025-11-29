@@ -1,0 +1,20 @@
+[project]
+name = "youtube_to_mp3"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "thanksLee",email = "dmzone75@naver.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "pytubefix (>=10.3.5,<11.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+package-mode = false
